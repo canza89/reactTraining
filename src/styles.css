@@ -1,0 +1,16 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* styles.css */
+
+ul {
+  list-style-type: none; /* Remove default bullet style */
+  padding: 0; /* Remove default padding */
+}
+
+li::before {
+  content: "•"; /* Add a bullet character before each list item */
+  margin-right: 8px; /* Adjust the margin to control the space between the bullet and text */
+}
